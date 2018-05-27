@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+conf.py	../vendor/mockery/mockery/docs/conf.py	1;"	kind:file	line:1
+copyright	../vendor/mockery/mockery/docs/conf.py	/^copyright = u'Pádraic Brady, Dave Marshall and contributors'$/;"	kind:variable	line:49
+exclude_patterns	../vendor/mockery/mockery/docs/conf.py	/^exclude_patterns = ['_build']$/;"	kind:variable	line:72
+extensions	../vendor/mockery/mockery/docs/conf.py	/^extensions = [$/;"	kind:variable	line:31
+html_static_path	../vendor/mockery/mockery/docs/conf.py	/^html_static_path = ['_static']$/;"	kind:variable	line:121
+html_theme	../vendor/mockery/mockery/docs/conf.py	/^    html_theme = 'sphinx_rtd_theme'$/;"	kind:variable	line:257
+html_theme	../vendor/mockery/mockery/docs/conf.py	/^html_theme = 'default'$/;"	kind:variable	line:103
+html_theme_path	../vendor/mockery/mockery/docs/conf.py	/^    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]$/;"	kind:variable	line:258
+htmlhelp_basename	../vendor/mockery/mockery/docs/conf.py	/^htmlhelp_basename = 'MockeryDocsdoc'$/;"	kind:variable	line:170
+latex_documents	../vendor/mockery/mockery/docs/conf.py	/^latex_documents = [$/;"	kind:variable	line:189
+latex_elements	../vendor/mockery/mockery/docs/conf.py	/^latex_elements = {$/;"	kind:variable	line:175
+man_pages	../vendor/mockery/mockery/docs/conf.py	/^man_pages = [$/;"	kind:variable	line:219
+master_doc	../vendor/mockery/mockery/docs/conf.py	/^master_doc = 'index'$/;"	kind:variable	line:45
+on_rtd	../vendor/mockery/mockery/docs/conf.py	/^on_rtd = os.environ.get('READTHEDOCS', None) == 'True'$/;"	kind:variable	line:253
+project	../vendor/mockery/mockery/docs/conf.py	/^project = u'Mockery Docs'$/;"	kind:variable	line:48
+pygments_style	../vendor/mockery/mockery/docs/conf.py	/^pygments_style = 'sphinx'$/;"	kind:variable	line:90
+release	../vendor/mockery/mockery/docs/conf.py	/^release = '1.0-alpha'$/;"	kind:variable	line:58
+source_suffix	../vendor/mockery/mockery/docs/conf.py	/^source_suffix = '.rst'$/;"	kind:variable	line:39
+templates_path	../vendor/mockery/mockery/docs/conf.py	/^templates_path = ['_templates']$/;"	kind:variable	line:36
+texinfo_documents	../vendor/mockery/mockery/docs/conf.py	/^texinfo_documents = [$/;"	kind:variable	line:233
+version	../vendor/mockery/mockery/docs/conf.py	/^version = '1.0'$/;"	kind:variable	line:56

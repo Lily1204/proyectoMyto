@@ -1,0 +1,90 @@
+#imagen{
+	background-image: url(../../assets/images/fondo1.jpg);
+	position:absolute;
+	overflow:auto;
+	background-repeat:no-repeat;
+	width: 95%; height: 95%;
+	background-size:1370px;		
+}
+#usuario {
+	margin: auto;
+}
+#caja {
+	  border: 4px solid white;
+	  margin-top: 15%;
+	  background: rgba(255, 255, 255, 0.562);
+	}
+
+#icon{
+	  width: 80px;
+	  height: 80px;
+	  background-image: url(../../assets/images/icono.png);
+	  background-size: 80px;
+	  background-repeat: no-repeat;
+	  margin-right: auto;
+	  margin-left: auto;
+	  position: relative;
+	  top: -45px;
+}
+ h3{
+	color: white;
+	margin-top: 30%;
+ }
+ a:link {
+    text-decoration: none;
+}
+ /* unvisited link */
+a:link {
+    color: rgb(22, 88, 230);
+}
+/* visited link */
+a:visited {
+    color: rgb(34, 46, 204);
+}
+/* mouse over link */
+a:hover {
+    color: rgb(143, 23, 190);
+}
+/* selected link */
+a:active {
+    color: rgb(43, 184, 106);
+}
+ h1{	
+ 	font: bold 20px verdana, sans-serif;
+ 	text-align: center;
+	 margin: 1px auto;		  
+ }
+input {
+    width: 90%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	margin-top: 10px;
+}
+input:focus, input[type="submit"]:hover {
+    border-color: #9380ff;
+    box-shadow: 0 0 0 0.2rem rgba(162, 0, 255, 0.25);
+}
+input[type="submit"] {
+	width: 100% !important;
+	color: white;
+	background: #634ef0;
+}
+@media (min-width: 768px) {
+	#caja {
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 25%;
+	height: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+#inferior{
+	width: 400px;
+	height: 200px;
+	
+}
+}

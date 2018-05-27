@@ -1,0 +1,49 @@
+/* la parte elegir*/
+#fondo{
+	background-image: url(../../assets/images/fondo3-1.jpg);
+	position:absolute;
+	overflow:auto;
+	background-repeat:no-repeat;
+	width: 95%; height: 95%;
+    background-size:1400px;	
+}	
+
+h1{
+
+	font: bold 20px verdana, sans-serif;
+ 	text-align: center;
+  	margin: 1px auto;
+    margin-top: 18%;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-size: 24pt;  
+}
+input{
+    width: 30%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 1px solid #f2f3f5;
+    border-radius: .25rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-top: 50px;
+    margin-right: 80px;
+}
+input[type="button"] {
+	width: 100% !important;
+	color: rgb(14, 13, 13);
+	background: #f6f6f7;
+}
+#boton{
+    width: 200px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+  
+}
+input:focus, input[type="button"]:hover {
+    border-color:rgb(51, 169, 216);
+    background:rgb(73, 182, 224);
+    box-shadow: 0 0 0 0.2rem rgb(73, 182, 224);
+}

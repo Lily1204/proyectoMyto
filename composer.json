@@ -1,0 +1,18 @@
+{
+	"name": "kevinmont/myito",
+	"autoload": {
+        "psr-4": {
+            "": ""
+		},
+		"classmap": [
+			"config/generated-classes/",
+			"vendor/autoload.php"
+		]
+    },
+	"require": {
+		"monolog/monolog": "1.0.*",
+		"mockery/mockery": "^1.1",
+		"propel/propel": "~2.0@dev"
+	},
+	"version": "1.0"
+}

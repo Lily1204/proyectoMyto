@@ -1,0 +1,94 @@
+#fondo{
+    background-color: rgb(212, 207, 216);
+}
+header{
+    background-color:#0f92be;
+}
+
+nav{
+    background-color:rgba(150, 147, 143, 0.472);
+    text-align: right;
+    padding:20px;
+}
+section{
+    background-color:rgb(255, 255, 255);
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 800px;
+}
+
+aside{
+    background-color: rgb(255, 255, 255);
+    margin-left: 880px;
+    margin-top: 30px;
+    width: 400px;
+}
+/*foother*/
+#pie{
+	clear: both;
+	text-align: center;
+	padding: 50px;
+}
+a:link {
+    color: rgb(43, 184, 106);
+    
+}
+/* decoration link*/
+a{
+    text-decoration: none;
+}
+/* visited link */
+a:visited {
+    color: rgb(12, 12, 12);
+}
+/* mouse over link */
+a:hover {
+    color: rgb(14, 44, 211);
+}
+/* selected link */
+a:active {
+    color: rgb(43, 184, 106);
+}
+/*titulo principal*/
+h1{
+    font: bold 20px verdana, sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-size: 24pt;
+}
+/* imagen caracteristica de deportes*/
+ #imagen{
+    width: 350px;
+    height: 190px;
+    background-image: url(../../assets/images/cultural.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+ }
+ /* estilos de boton*/
+  input{
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 1px solid #f2f3f5;
+    border-radius: .25rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-left: 640px;
+}
+input[type="button"] {
+	width: 20% !important;
+	color: rgb(14, 13, 13); 
+	background: #a3d650;
+}
+input:focus, input[type="button"]:hover {
+    border-color:rgb(73, 182, 224);
+    background:rgb(73, 182, 224);
+    box-shadow: 0 0 0 0.2rem rgb(73, 182, 224);
+}
+h2{
+text-align: center
+}
